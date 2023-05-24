@@ -95,3 +95,22 @@ body {
     transform: scale(1.1, 1.1);
     transition: 0.4s;
  }
+
+ @media screen and (max-width: 480px) {
+    
+    .relogio {
+        height: 150px;
+        width: 350px;
+    }
+
+    .relogio div {
+        height: 100px;
+        width: 100px;
+    }
+
+    .relogio span {
+        font-size: 40px;
+        font-weight: bolder;
+    }
+
+}
